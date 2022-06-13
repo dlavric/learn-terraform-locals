@@ -1,13 +1,12 @@
 terraform {
 
-  /* Uncomment this block to use Terraform Cloud for this tutorial
+
   cloud {
-    organization = "organization-name"
+    organization = "daniela-org"
     workspaces {
       name = "learn-terraform-locals"
     }
   }
-  */
 
   required_providers {
     aws = {
